@@ -5,25 +5,26 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Scaffold(  
+      backgroundColor: Image.asset('name').color,              
+      body:Container(        
         padding: EdgeInsets.only(
           top: 60,
           left: 40,
           right: 40,
-        ),
+        ),        
         color: Colors.white,
         child: ListView(
           children: <Widget>[
             SizedBox(
-              width: 300,
-              height: 300,
+              width: 200,
+              height: 200,
               child: Image.asset("assets/novafranca.png"),
             ),            
             TextFormField(
-              keyboardType: TextInputType.emailAddress,
+              keyboardType: TextInputType.number,
               decoration:InputDecoration(
-                labelText: 'E-mail',
+                labelText: 'Numero do Contrato',
                 labelStyle: TextStyle(
                   color: Colors.black38,
                   fontWeight: FontWeight.w400,

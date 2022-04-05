@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fune_nova_franca/home_page.dart';
 import 'package:fune_nova_franca/login_page.dart';
 import 'login_page.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Funerária Nova Franca',
-      home: LoginPage(),      
+      home: HomePage(),      
     );
   }
 }
